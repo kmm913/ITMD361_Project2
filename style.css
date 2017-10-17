@@ -60,11 +60,7 @@ table {
   font-size: 2.5em;
   font-weight: bold;
   color: #37638d; 
-  padding: 10px;
-  border-top-style: double;
-  border-width: 5px;
-  border-color: #16776C;
-  
+  padding: 10px;  
 }
 
 h2 {
@@ -120,7 +116,8 @@ p {
 img {
   width: 15%;
   height: auto;
-  border-radius: 5px; 
+  border-radius: 5px 5px 5px; 
+  margin: 5px;
   }
   
 /* CSS for page 1 only */
@@ -130,8 +127,4 @@ h3 {
   font-size: 1.5em;
   color: #37638d;
   padding: 10px; 
-}
-
-#headline {
-  border-style: none;
 }
