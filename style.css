@@ -52,13 +52,19 @@ table {
 } 
 
 /*end CSS reset*/
- 
+
+/*shared CSS for all three pages */
+
  h1 {
   font-family: 'IM Fell French Canon SC', serif;
   font-size: 2.5em;
   font-weight: bold;
   color: #37638d; 
   padding: 10px;
+  border-top-style: double;
+  border-width: 5px;
+  border-color: #16776C;
+  
 }
 
 h2 {
@@ -67,27 +73,28 @@ h2 {
   font-weight: bold;
   color: #37638d; 
   padding: 10px;
-}
-
-h3 {
-  font-family: 'IM Fell French Canon SC', serif;
-  font-size: 1.5em;
-  color: #37638d;
-  padding: 10px; 
+  border-top-style: double; 
+  border-width: 5px;
+  border-color: #16776C;
+  
 }
 
 p {
   font-family: serif; 
   font-weight: normal; 
+  font-size: 1em;
   color: black;
-  max-width: 75%;
   padding: 10px; 
+}
+
+.nav {
+  padding-bottom: 10px;
 }
 
  .nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding 0;
     overflow: hidden;
     background-color: #9E570D;
 	  border-radius: 15px 50px 30px;
@@ -115,3 +122,16 @@ img {
   height: auto;
   border-radius: 5px; 
   }
+  
+/* CSS for page 1 only */
+
+h3 {
+  font-family: 'IM Fell French Canon SC', serif;
+  font-size: 1.5em;
+  color: #37638d;
+  padding: 10px; 
+}
+
+#headline {
+  border-style: none;
+}
