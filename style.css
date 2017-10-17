@@ -1,27 +1,28 @@
-html {
-  font-family: 'IM Fell French Canon SC', serif;
-}
-
  h1 {
+  font-family: 'IM Fell French Canon SC', serif;
   font-size: 2.5em;
   font-weight: bold;
   color: #37638d; 
 }
 
 h2 {
+  font-family: 'IM Fell French Canon SC', serif;
   font-size: 2em;
   font-weight: bold;
   color: #37638d; 
 }
 
 h3 {
+  font-family: 'IM Fell French Canon SC', serif;
   font-size: 1.5em;
   color: #37638d;
 }
 
 p {
+  font-family: serif; 
   font-weight: normal; 
   color: black;
+  max-width: 75%;
 }
 
  ul {
@@ -50,7 +51,8 @@ li a:hover {
     background-color: gray;
 }
 
-
-
-
-.
+img {
+  width: 15%;
+  height: auto;
+  border-radius: 5px; 
+  }
