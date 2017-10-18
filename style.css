@@ -95,7 +95,7 @@ p {
  .nav ul {
     list-style-type: none;
     margin: 0;
-    padding 0;
+    padding: 0;
     overflow: hidden;
     background-color: #9E570D;
 	  border-radius: 15px 50px 30px;
@@ -204,14 +204,15 @@ h3 {
 }
 
 .tooltip:hover .tooltiptext {
-    visibility: visible;
+visibility: visible; 
 }
 
-@ media all and (min-width: 600px) {
+
+@media all and (min-width: 600px) {
 	.flex-item1 {flex: 1 auto; }
 }
 
-@ media all and (min-width: 800px) {
+@media all and (min-width: 800px) {
 	.flex-item {flex: 3 0px; }
 }
 
@@ -240,6 +241,25 @@ h3 {
 
 /*CSS for page 3 only */
 
-#skills li {
-  font-weight: bold; 
+#skills li, #experience li {
+  list-style-type: square;
+  list-style-position: inside;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+#experience ul {
+  padding-bottom: 10px;
+}
+
+
+#experience h4 {
+  font-weight: bold;
+  float: left;
+  margin-right: 25px;
+  margin-left: 10px;
+}
+
+#experience p {
+  padding-top: 25px;
 }
