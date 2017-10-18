@@ -56,7 +56,7 @@ table {
 /*shared CSS for all three pages */
 
 body {
-  margin-left: 15px;
+  margin-left: 10px;
   margin-right: 10px;
 }
 
@@ -215,3 +215,31 @@ h3 {
 	.flex-item {flex: 3 0px; }
 }
 
+/* CSS for page 2 only */
+
+#combine li {
+  list-style-type: disc;
+  list-style-position: inside;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+.imgTwo {
+  width: 25%;
+  height: auto;
+  border-radius: 5px 5px 5px; 
+  margin: 5px;
+}
+
+.imgR {
+  width: 10%;
+  height: auto;
+  border-radius: 5px 5px 5px; 
+  margin: 5px;
+}
+
+/*CSS for page 3 only */
+
+#skills li {
+  font-weight: bold; 
+}
