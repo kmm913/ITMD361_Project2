@@ -57,17 +57,17 @@ table {
 
  h1 {
   font-family: 'IM Fell French Canon SC', serif;
-  font-size: 2.5em;
+  font-size: 2.6em;
   font-weight: bold;
-  color: #37638d; 
+  color: #103C66; 
   padding: 10px;  
 }
 
 h2 {
   font-family: 'IM Fell French Canon SC', serif;
-  font-size: 2em;
+  font-size: 2.1em;
   font-weight: bold;
-  color: #37638d; 
+  color: #103C66; 
   padding: 10px;
   border-top-style: double; 
   border-width: 5px;
@@ -78,7 +78,7 @@ h2 {
 p {
   font-family: serif; 
   font-weight: normal; 
-  font-size: 1em;
+  font-size: 1.1em;
   color: black;
   padding: 10px; 
 }
@@ -124,7 +124,90 @@ img {
 
 h3 {
   font-family: 'IM Fell French Canon SC', serif;
-  font-size: 1.5em;
-  color: #37638d;
-  padding: 10px; 
+  color: #103C66;
+  padding: 10px;
 }
+
+.tool-flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+	
+}
+
+.tool-flex-container > * {
+    padding: 10px;
+    flex: 1 150px;
+}
+
+.tool-flex-item {
+	/*border:5px black;*/
+	width: auto; 
+	height: auto; 
+	margin: 10px; 
+	color: white; 
+	font-weight: bold; 
+	font-size: 1.6em; 
+	font-family: serif; 
+	text-align: center; 
+	border-style: solid; 
+	border-radius: 10px; 
+}
+
+.toolsIMG {
+  width: 75%;
+  height: auto;
+  border-radius: 5px 5px 5px; 
+  margin: 5px;
+  }
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 265px;
+    height: 120px;
+    line-height: 20px;
+    background-color: black;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+@ media all and (min-width: 600px) {
+	.flex-item1 {flex: 1 auto; }
+}
+
+@ media all and (min-width: 800px) {
+	.flex-item {flex: 3 0px; }
+}
+
