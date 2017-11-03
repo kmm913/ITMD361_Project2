@@ -90,6 +90,7 @@ p {
 
 .nav {
   padding-bottom: 10px;
+  text-align: center;
 }
 
  .nav ul {
@@ -99,10 +100,11 @@ p {
     overflow: hidden;
     background-color: #9E570D;
 	  border-radius: 15px 50px 30px;
+    text-align: center;
 }
 
 .nav li {
-    float: left;
+    display: inline;
 }
 
 .nav li a {
