@@ -255,6 +255,14 @@ visibility: visible;
   text-align: center;
 }
 
+#video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
 /*CSS for page 3 only */
 
 #skills li, #experience li {
