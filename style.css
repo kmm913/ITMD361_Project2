@@ -222,12 +222,14 @@ visibility: visible;
 /* CSS for page 2 only */
 
 #combine{
-  text-align: center;
+  text-align: left;
+  margin: 0 auto;
+  width: 375px;
 }
 
 #combine li {
   list-style-type: disc;
-  list-style-position: inside;
+  list-style-position: inside; 
   text-indent: -1em;
   padding-left: 1em; 
 }
