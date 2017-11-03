@@ -58,7 +58,6 @@ table {
 body {
   margin-left: 10px;
   margin-right: 10px;
-  text-align: center;
 }
 
  h1 {
@@ -67,6 +66,7 @@ body {
   font-weight: bold;
   color: #103C66; 
   padding: 10px;
+  text-align: center;
 }
 
 h2 {
@@ -78,7 +78,7 @@ h2 {
   border-top-style: double; 
   border-width: 5px;
   border-color: #16776C;
-  
+  text-align: center;  
 }
 
 p {
