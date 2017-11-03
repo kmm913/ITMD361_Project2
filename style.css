@@ -221,6 +221,10 @@ visibility: visible;
 
 /* CSS for page 2 only */
 
+#combine ul {
+  text-align: center;
+}
+
 #combine li {
   list-style-type: disc;
   list-style-position: inside;
@@ -233,6 +237,9 @@ visibility: visible;
   height: auto;
   border-radius: 5px 5px 5px; 
   margin: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .imgR {
@@ -240,6 +247,9 @@ visibility: visible;
   height: auto;
   border-radius: 5px 5px 5px; 
   margin: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*CSS for page 3 only */
